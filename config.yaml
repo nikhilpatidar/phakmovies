@@ -1,0 +1,37 @@
+baseurl: "https://example.com"
+languageCode: "en-us"
+title: "Phak Movies"
+theme: "hugo-tania"
+paginate: 20
+
+params:
+  titleEmoji: '🎥'
+  description: "download all latest movies, free movies download, latest bollywood, latest hollywood, hollywood hindi dubbed, free hindi movies download."
+  #socialOptions:
+    #telegram:
+    #instagram: 
+  #ga_analytics: 123448478
+  #ga_verify: 383736463
+  enableFootnotes: false
+
+menu:
+  header:
+    - name: All Movies
+      url: "/movies-archive/"
+    - name: About
+      url: "/about/"
+  footer:
+    - name: RSS
+      url: "/index.xml"
+    - name: Ads Disclaimer
+      url: "/ads-disclaimer/"
+    - name: Privacy Policy
+      url: "/privacy-policy/"
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+  goldmark:
+    renderer:
+      unsafe: true

@@ -1,0 +1,136 @@
+.wrap {
+    margin:50px auto 0;
+    max-width: 600px;
+}
+
+.telegram {
+  margin-bottom: 15px;
+}
+.telegram a {
+  display: block;
+  background-color: #039be5;
+  border-radius: 7px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+.telegram .tg-icon {
+  float: left;
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  background-image: url("https://qayoutube.com/telegram.svg");
+  position: relative;
+  z-index: 10;
+}
+.telegram .tg-text {
+  overflow: hidden;
+  color: #fff;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: bold;
+  padding: 15px 10px;
+  position: relative;
+  z-index: 10;
+  text-shadow: 1px 1px 1px #2580dd;
+}
+.telegram .cloud {
+  width: 40px;
+  height: 40px;
+  display: block;
+  background-size: cover;
+  background-image: url("https://qayoutube.com/cloud.svg");
+  position: absolute;
+}
+.x1,
+.x2,
+.x3,
+.x4,
+.x5 {
+  position: absolute;
+  display: block;
+}
+@-webkit-keyframes animateCloud {
+  0% {
+    margin-left: -100px;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+@-moz-keyframes animateCloud {
+  0% {
+    margin-left: -100px;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+@keyframes animateCloud {
+  0% {
+    margin-left: -100px;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+  -webkit-animation: animateCloud 35s linear infinite;
+  -moz-animation: animateCloud 35s linear infinite;
+  animation: animateCloud 35s linear infinite;
+
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  transform: scale(0.7);
+  top: 10px;
+}
+
+.x2 {
+  -webkit-animation: animateCloud 20s linear infinite;
+  -moz-animation: animateCloud 20s linear infinite;
+  animation: animateCloud 20s linear infinite;
+
+  -webkit-transform: scale(0.4);
+  -moz-transform: scale(0.4);
+  transform: scale(0.4);
+  top: 20px;
+}
+
+.x3 {
+  -webkit-animation: animateCloud 30s linear infinite;
+  -moz-animation: animateCloud 30s linear infinite;
+  animation: animateCloud 30s linear infinite;
+
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  transform: scale(0.6);
+  top: 25px;
+}
+
+.x4 {
+  -webkit-animation: animateCloud 18s linear infinite;
+  -moz-animation: animateCloud 18s linear infinite;
+  animation: animateCloud 18s linear infinite;
+
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  transform: scale(0.5);
+  top: 10px;
+}
+
+.x5 {
+  -webkit-animation: animateCloud 25s linear infinite;
+  -moz-animation: animateCloud 25s linear infinite;
+  animation: animateCloud 25s linear infinite;
+
+  -webkit-transform: scale(0.55);
+  -moz-transform: scale(0.55);
+  transform: scale(0.55);
+  top: 30px;
+}
+
