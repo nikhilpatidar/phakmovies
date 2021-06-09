@@ -1,9 +1,9 @@
 ---
-title: "Telegram"
+title: "Phak Movies"
 date: 2020-11-26
-description: Join our telegram channel for all latest movies.
+description: Join telegram for all latest movies.
 weight: 1
-link: https://t.me/thetechnohack
-repo: https://t.me/thetechnohack
+link: https://telegram.me/phakmovies
+repo: https://telegram.me/phakmovies
 icon: 🎥
 ---
