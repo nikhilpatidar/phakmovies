@@ -1,10 +1,11 @@
-[View Live Site](https://thetechnohack.cf)
+[View Live Site](https://phakmovies.cf)
+[Go To Movies Dir](https://github.com/nikhilpatidar/phakmovies/tree/master/content/movies)
 
 ## How to add a new movie
 
-Create a <movie-name>.md file in __content > movies__ directory.
+Create a _movie-name.md_ file in __content > movies__ directory.
 
-Inside <movie-name>.md file add the movie info on the top in the following format:
+Inside _movie-name.md_ file add the movie info on the top in the following format:
 ```
 ---
 title: Movie Name
@@ -16,12 +17,12 @@ author: Author Name
 - `author` is optional
 
 ## Adding youtube video
-Inside <movie-name>.md you can add youtube videoes with this shortcode:
+Inside _movie-name.md_ you can add youtube videos with this shortcode:
 ```
 {{< youtube <video-id-here> >}}
 ```
 
-- Example(https://youtu.be/aqz-KE-bpKQ)
+- Example(`https://youtu.be/aqz-KE-bpKQ`)
 ```
 {{< youtube aqz-KE-bpKQ >}}
 ```
@@ -29,7 +30,7 @@ Inside <movie-name>.md you can add youtube videoes with this shortcode:
 ## Adding download button
 You can add the download button like:
 ```
-{{< download "full-link-here" >}}
+{{< download "full-download-link-here" >}}
 ```
 
 ## Adding telegram join button
@@ -38,4 +39,3 @@ Add a telegram channel join button:
 {{< telegram "channel-name-here" >}}
 ```
 Dont add `@` before channel name
-
