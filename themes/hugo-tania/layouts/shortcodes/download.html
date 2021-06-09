@@ -1,7 +1,7 @@
 {{- $url := .Get 0 }}
 
 <div class="download-container">
-	<a href="#" class="download-btn">Download Files <i class="fas fa-download"></i></a>
+	<a href="#" class="download-btn">Download<i class="fas fa-download"></i></a>
 	<div class="countdown"></div>
 	<div class="pleaseWait-text">Please wait..</div>
 	<div class="manualDownload-text">
@@ -16,7 +16,7 @@
     const pleaseWaitText = document.querySelector(".pleaseWait-text");
     const manualDownloadText = document.querySelector(".manualDownload-text");
     const manualDownloadLink = document.querySelector(".manualDownload-link");
-    var timeLeft = 10;
+    var timeLeft = 25;
 
     downloadBtn.addEventListener("click", () => {
       downloadBtn.style.display = "none";
